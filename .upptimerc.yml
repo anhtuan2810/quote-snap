@@ -5,10 +5,13 @@ repo: quote-snap # The name of this repository
 sites:
   - name: Redis Service
     url: https://api.omegatheme.com/quote-snap/backend/server.php/api/status/redis
+    method: GET
   - name: MySQL Service
     url: https://api.omegatheme.com/quote-snap/backend/server.php/api/status/mysql
+    method: GET
   - name: Api Health
     url: https://api.omegatheme.com/quote-snap/backend/server.php/api
+    method: GET
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
